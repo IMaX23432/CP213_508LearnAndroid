@@ -1,5 +1,6 @@
 package com.example.a508lablearnandroid
 
+import android.content.Intent
 import android.os.Bundle
 import android.webkit.WebSettings.TextSize
 import androidx.activity.ComponentActivity
@@ -7,6 +8,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -44,6 +46,7 @@ class MainActivity : ComponentActivity() {
                     .fillMaxSize()
                     .background(color = Color.Gray)
                     .padding(32.dp)
+
             ) {
                 // hp
                 Box(
@@ -70,6 +73,9 @@ class MainActivity : ComponentActivity() {
                         .size(480.dp)
                         .align(Alignment.CenterHorizontally)
                         .padding(top = 16.dp)
+                        .clickable() {
+                            startActivity(Intent(this@MainActivity, ListActivity::class.java))
+                        }
                 )
                 //status
                 Row(
