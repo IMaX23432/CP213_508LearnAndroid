@@ -1,4 +1,4 @@
-package com.example.a513_lablearnandroid
+package com.example.a508_lablearnandroid
 
 import android.content.Intent
 import android.os.Bundle

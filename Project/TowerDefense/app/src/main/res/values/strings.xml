@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TowerDefense</string>
+    <string name="title_activity_main_activity.kt">MainActivity.kt</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

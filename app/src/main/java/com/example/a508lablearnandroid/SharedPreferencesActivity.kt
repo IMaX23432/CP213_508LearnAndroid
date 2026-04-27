@@ -29,7 +29,7 @@ class SharedPreferencesActivity : ComponentActivity() {
 
         enableEdgeToEdge()
         setContent {
-            _513_LabLearnAndroidTheme {
+            _508_LabLearnAndroidTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "user_name",
@@ -52,7 +52,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    _513_LabLearnAndroidTheme {
+    _508_LabLearnAndroidTheme {
         Greeting("Android")
     }
 }

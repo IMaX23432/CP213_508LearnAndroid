@@ -1,4 +1,4 @@
-package com.example.a513_lablearnandroid
+package com.example.a508_lablearnandroid
 
 import android.os.Bundle
 import android.util.Log
@@ -30,7 +30,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.example.a513_lablearnandroid.Utils.PokemonViewModel
+import com.example.a508_lablearnandroid.Utils.PokemonViewModel
 
 class PokedexActivity : ComponentActivity() {
 
